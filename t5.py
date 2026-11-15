@@ -70,7 +70,7 @@ def t5_tokenize(
 
     device = next(t5.parameters()).device
 
-    encoded = tokenizer.batch_encode_plus(
+    encoded = tokenizer(
         texts,
         return_tensors = "pt",
         padding = 'longest',

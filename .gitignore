@@ -1,3 +1,8 @@
 # Ignore the 'data' folder and all its contents
 data/
 __pycache__/
+explorer_outputs/
+glyffuser/
+glyffuser-unconditional/
+inference_outputs/
+saved_vae/

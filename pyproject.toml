@@ -1,0 +1,27 @@
+[project]
+name = "glyffuser"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.15.0",
+    "datasets>=5.2.0",
+    "diffusers>=0.43.0",
+    "einops>=0.8.2",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.2",
+    "notebook>=7.6.5",
+    "opencv-python>=5.0.0.93",
+    "pillow>=13.0.0",
+    "plotly[express]>=7.1.0",
+    "scikit-learn>=1.9.1",
+    "torch>=2.15.0",
+    "torchvision>=0.29.2",
+    "tqdm>=4.70.1",
+    "transformers>=5.23.0",
+    "umap-learn>=0.6.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]
